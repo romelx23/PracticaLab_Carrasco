@@ -16,8 +16,8 @@ numero=int(input("Ingrese un numero para verificar si es primo: "))
 
 if (NumeroPrimo(numero)==1):
     
-    print(numero+" es primo.")
+    print(f"{numero} es primo.")
     
 else:
     
-    print(numero+" no es primo.")
+    print(f"{numero} no es primo.")
